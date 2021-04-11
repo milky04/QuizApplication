@@ -62,7 +62,7 @@ const judge = (e) => {
     window.alert('正解！');
     score++;
   } else {
-    window.alert('不正解！');
+    window.alert('不正解！正解は' + '「' + quiz[quizIndex].correct + '」でした！');
   }
   quizIndex++;
   if(quizIndex < quizLength){
